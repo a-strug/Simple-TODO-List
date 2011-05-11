@@ -1,1 +1,1 @@
-For demo see: [http://a-strug.github.com/simple-TODO-list/](http://a-strug.github.com/simple-TODO-list/).
+For demo see: [http://a-strug.github.com/Simple-TODO-List/](http://a-strug.github.com/Simple-TODO-List/)
