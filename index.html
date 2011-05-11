@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simple Todo Manager</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.6.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.12/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/todo.js"></script>
+</head>
+<body>
+    <div id="content">
+            <h1>Simple Todo Manager <small>v.1.0</small></h1>
+            <div class="buttons">
+                <a id="newList" href="#">Delete all</a>
+                <a id="clearReady" href="#">Delete complete</a>
+            </div>
+          	            
+            <div class="ul-box">
+                <ul id="not-ready-note"></ul>
+                <ul id="ready-note"></ul>
+            </div>
+            
+            <div class="add-new">
+            	<label for="noteTitle" title="Add a new note">Add new: </label>
+            	<input type="text" id="noteTitle" value="What do you need to do?" />
+            	<a href="#" id="addButton" title="Save"></a>
+           	</div> 
+    </div>
+<script type="text/javascript">
+$(function() {
+    new Todo();
+})
+</script>
+</body>
+</html>

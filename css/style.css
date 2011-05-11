@@ -1,0 +1,194 @@
+body{
+    font-family: "helvetica neue", "helvetica-neue", "helvetica", "arial", sans-serif	
+}
+
+small{
+	font-size: 14px;
+	color: gray;	
+}
+
+label{
+    color: #000;
+    padding-right: 10px;
+    cursor: pointer;    
+}
+
+#content{
+	width: 450px;
+	margin: 0 auto;
+	border: 1px solid #999;
+	margin-top: 20px;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	padding: 10px 0;
+	background-color: #f5f5f5;
+    -moz-box-shadow: 0 0 20px #ccc;
+    -webkit-box-shadow: 0 0 20px #ccc;
+    box-shadow: 0 0 20px #ccc;
+}
+
+#content h1{
+	text-align: center;	
+    color: #ef6f16;
+    font-size: 24px;
+    padding: 10px 0;
+}
+
+#not-ready-note{
+	list-style: none;
+}
+
+.left{
+	float: left;
+}
+
+.form{
+	width: 400px;	
+}
+
+#noteTitle{
+	width: 300px;
+	color: gray;
+	font-style: italic;	
+}
+
+.add-new{
+	padding: 10px 10px 0px 10px;
+}
+
+/*UL LIST*/
+ul li{
+	font-size: 16px;
+	padding: 2px 6px;
+	background-color: #fff;
+	font-size: 14px;
+	border-bottom: 1px dashed silver;
+	height: 20px;
+	clear: both;
+}
+
+ul li:last-child{
+	border: none !important;	
+}
+
+ul li span{
+    float: left;
+    line-height: 20px;
+    width: 360px;
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    -o-text-overflow: ellipsis; 
+    -moz-binding: url("./ellipsis.xml#ellipsis");
+}
+
+ul li textarea{
+	float: left;
+	width: 360px;
+	height: 50px;
+	resize: none;
+	padding: 2px 5px;
+	margin: 3px 8px 0 5px;	
+}
+
+.edited{
+	height: 63px;
+	background-color: #f5f5f5;	
+}
+
+ul#ready-note li:first-child{
+    border-top: 1px dashed silver !important;	
+}
+
+ul li:hover{
+	background-color: #f5f5f5;	
+}
+
+ul li input[type=checkbox]{
+	margin-right: 8px;
+	float: left;	
+}
+
+ul li.completed span{
+	text-decoration: line-through;
+	color: gray;	
+}
+
+.edit{
+	background: url(../img/edit.gif) no-repeat;
+	height: 16px;
+	width: 17px;
+	cursor: pointer;
+	float: left;
+	margin-top: 2px;
+}
+
+.del{
+	background: url(../img/del.gif) no-repeat;
+	height: 16px;
+	width: 17px;
+	cursor: pointer;
+	float: left;
+	margin-top: 2px;
+}
+
+.cancel{
+	background: url(../img/no.gif) no-repeat;
+	height: 16px;
+	width: 17px;
+	cursor: pointer;
+	float: left;
+	margin-top: 20px;
+}
+
+.save{
+	background: url(../img/ok.gif) no-repeat;
+	height: 16px;
+	width: 17px;
+	cursor: pointer;
+	float: left;
+	margin-top: 20px;
+}
+
+.ul-box{
+	border-top:1px solid #999;
+	border-bottom:1px solid #999;
+	height: 350px;
+	overflow-y: scroll;
+	background-color: #fff;
+}
+
+.no-notes{
+	text-align: center;
+	padding: 10px 0;
+	background-color: #fff !important;
+	margin-top: 150px;	
+}
+
+#addButton{
+    width: 24px;
+    height: 24px;
+    background: url(../img/add.png) no-repeat;
+    float: right;
+    margin-right: 10px;	
+}
+
+.buttons{
+    margin: 10px;	
+}
+
+.buttons a{
+    background-color: #000;
+    border-radius:5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    color: white;
+    padding: 2px 10px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.buttons a:hover{
+    color: #ef6f16;	
+}
